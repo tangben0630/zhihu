@@ -1,0 +1,23 @@
+session:
+
+1，相比jwt 最大优势可以主动清除 session
+2，session保存在服务器端，相对安全
+3，结合cookie，灵活，兼容性好
+4，cookie + session跨域表现并不好
+5，分布式，需要做session共享
+6，CSRF
+7，可能有数据库查询的操作
+
+JWT
+1，JSON Web Token 的缩写，是一个开放标准
+2，定义了一种紧凑独立的方式，可以将各方之间的信息作为JSON对象进行传输
+3，信息可以验证和信任，是经过数字签名的
+
+
+对比：
+
+1，可拓展性：JWT比较好
+2，安全性：XSS攻击
+3，RESTFUL： 无状态
+4，性能：session 各有利弊
+5，时效性：session可以主动销毁
