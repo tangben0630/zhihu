@@ -13,11 +13,14 @@
   "dependencies": {
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0",
+    "koa-json-error": "^3.1.2",
+    "koa-parameter": "^3.0.1",
     "koa-router": "^10.0.0",
     "koa-static": "^5.0.0",
     "koa-view": "^2.1.4"
   },
   "devDependencies": {
+    "koa-json-error": "^3.1.2",
     "nodemon": "^2.0.7"
   }
 }
